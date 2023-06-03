@@ -4,17 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
+    <title>Cadastro de Prestador</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="cabecalho">
-        <img class="logo" src="./assets/logoHeja.jpg" />
-      </header>
-
-      <div class="formulario"></div>
-    </div>
+    <header class="cabecalho">
+      <h1>CADASTRO DE PRESTADORES</h1>
+    </header>
+    <nav class="menu">
+      <a href="#">Preencher Formulário</a>
+      <a href="#">Sobre</a>
+    </nav>
+    <main>
+      <article class="conteudo">
+        <div class="perguntas">
+          <h1 class="pergunta">Nome Completo:</h1>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome"
+            required
+          />
+        </div>
+        <div class="perguntas">
+          <h1 class="pergunta">CPF</h1>
+          <input
+            type="number"
+            id="cpf"
+            name="cpf"
+            placeholder="Informe seu CPF"
+            required
+          />
+        </div>
+        <div class="perguntas">
+          <h1 class="pergunta">Data de Nascimento</h1>
+          <input
+            type="date"
+            id="date"
+            name="date"
+            placeholder="Informe seu CPF"
+            required
+          />
+        </div>
+        <div class="perguntas">
+          <h1 class="pergunta">Nome</h1>
+        </div>
+        <div class="perguntas">
+          <h1 class="pergunta">Nome</h1>
+        </div>
+      </article>
+    </main>
+    <button>ENVIAR</button>
+    <footer>
+      <p>Site desenvolvido por Jhonatan Camargo.</p>
+    </footer>
   </body>
 </html>
